@@ -41,5 +41,3 @@ texture:
 plugins:
   - jekyll-seo-tag
 #  - jekyll-feed
-yaml
-remote_theme: thelehhman/texture
