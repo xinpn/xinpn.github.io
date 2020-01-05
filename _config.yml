@@ -15,7 +15,7 @@ sass:
 
 permalink: /posts/:title/
 texture:
-  title: Adam Denisov
+  title: xin's blog
   tagline: Developer. Designer
   date_format: "%b %-d, %Y"
   style: black
@@ -26,7 +26,7 @@ texture:
   social_links:
     twitter: thelehhman
     github:  thelehhman
-    linkedIn: in/thelehhman
+    QQ: in/thelehhman
     rss: rss
  
 
@@ -41,3 +41,5 @@ texture:
 plugins:
   - jekyll-seo-tag
 #  - jekyll-feed
+yaml
+remote_theme: thelehhman/texture
