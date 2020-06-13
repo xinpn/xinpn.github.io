@@ -8,10 +8,12 @@ Example 1:
 
 Input: 123
 Output: 321
+
 Example 2:
 
 Input: -123
 Output: -321
+
 Example 3:
 
 Input: 120
@@ -43,7 +45,7 @@ Assume we are dealing with an environment which could only store integers within
   
   ```
 
-- 每次取数字的一位，将它组成新的数字，并判断是否越界
+- 每次取数字的最后一位，利用每次得到的最后一位组成新的数字，得到的数字即为原数字的反转，最后判断是否越界
 
   ```python
   class Solution(object):
